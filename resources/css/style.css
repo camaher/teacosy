@@ -1,0 +1,134 @@
+body {
+  font-family: helvetica;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  font-size: 22px;
+  width: 100%;
+}
+
+/*  i seem to have a problem centering on the screen, can you help?*/
+.header {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  top: 0px;
+  background-color: black;
+  color: seashell;
+  flex-grow: 1;
+}
+
+nav span {
+  display: inline-block;
+  color: seashell;
+  padding: 0px 20px;
+  text-decoration: underline;
+  font-size: 22px;
+}
+
+header img {
+  width: 200px;
+  height: 50px;
+  display: inline-block;
+  padding-right: 650px;
+  margin-left: 10px;
+}
+
+.container {
+  display: block;
+  padding-top: 70px;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+#mission {
+  width: 1200px;
+  height: 700px;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../images/img-mission-background.jpg);
+}
+
+/* I tried everything I could think of to vertically
+ center this, can you tell me what I did wrong?*/
+#mission .info {
+  background-color: black;
+  justify-content: center;
+  align-content: center;
+}
+
+#featured {
+  width: 1000px;
+  height: 800px;
+  align-items: center;
+}
+
+#featured h1, h4 {
+  padding-left: 200px;
+}
+
+#featured .container {
+  padding: 0px 100px;
+}
+
+#featured .teas {
+  display: flex;
+  width: 1000px;
+}
+
+#locations {
+  width: 1200px;
+  height: 500px;
+  align-items: center;
+  background-image: url(../images/img-locations-background.jpg);
+}
+
+.footer {
+  display: block;
+  height: 200px;
+  justify-content: space-around;
+  align-content: center;
+}
+
+body .copyright {
+  display: block;
+  text-align: left;
+  padding-left: 20px;
+}
+.container .teas {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 1000px;
+  justify-content: space-around;
+}
+
+.tea {
+  display: inline-block;
+  justify-content: space-between;
+  align-content: center;
+  width: 300px;
+  padding: 10px;
+}
+
+.tea img {
+  height: 200px;
+  width: 300px;
+  padding-bottom: 10px;
+}
+
+#locations .address {
+  width: 300px;
+  display: inline-block;
+  margin: 15px 20px 0px 20px;
+  background-color: black;
+  opacity: 1;
+}
